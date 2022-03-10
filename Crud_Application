@@ -1,0 +1,24 @@
+pragma solidity ^0.5.0; 
+
+contract Crud { 
+    struct user{ 
+       uint id; 
+       string name; 
+    }
+    user[] public users; 
+    uint public nextId; 
+
+    function create(string memory name) public{
+          users.push(users(nextId, name));  
+          nextID++; 
+    }
+    function read(uint  id) view public returns(uint, stringmemory) {
+        for(uint  i = 0; < users.length; i++) {
+            if(users[i].id) [
+                return(users[i].id, userss[i].name)
+            ]
+        }
+    }
+}
+
+0xDA0bab807633f07f013f94DD0E6A4F96F8742B53
